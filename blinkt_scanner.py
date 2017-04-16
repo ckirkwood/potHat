@@ -1,3 +1,5 @@
+## 1 pot controls the position of the 'on' LED, the other 2 control red and green values; potential use in a UI/menu selector
+
 import Adafruit_MCP3008
 import blinkt
 import time
