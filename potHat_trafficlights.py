@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+## Control LEDs connected to GPIO pins 6, 12 & 13 (with a button on 19)
 
 from gpiozero import LED, Button
 from time import sleep
