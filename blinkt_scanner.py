@@ -18,11 +18,9 @@ blinkt.set_brightness(0.2)
 ## NewValue = (((OldValue - OldMin) * (NewMax - NewMin) / (OldMax - OldMin)) + NewMin
 
 while True:
-	r = (((mcp.read_adc(0) - 0) * (7 - 0)) / (1023 - 0)) + 0
-	g  = (((mcp.read_adc(1) - 0) * (7 - 0)) / (1023 - 0)) + 0
+	r = (((mcp.read_adc(0) - 0) * (255 - 0)) / (1023 - 0)) + 0
+	g  = (((mcp.read_adc(1) - 0) * (255 - 0)) / (1023 - 0)) + 0
 	scan = (((mcp.read_adc(2) - 0) * (7 - 0)) / (1023 - 0)) + 0
 	blinkt.clear()
 	blinkt.set_pixel(scan, r, g, 0)
 	blinkt.show()
-
-
