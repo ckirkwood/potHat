@@ -26,4 +26,3 @@ while True:
 	blinkt.set_all(r, g, b)
 	blinkt.show()
 	time.sleep(0.1)
-
