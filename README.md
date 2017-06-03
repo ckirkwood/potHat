@@ -5,7 +5,7 @@ Built as a solution to provide analogue inputs to the Raspberry Pi without the h
 
 With a few spare rows on the proto HAT, I added a trio of LEDs so that I could work with relatively simple scripts to get my Python up to speed. The pots and switch can be used to alter values of the outputs like the colour/brightness/blink speed of LEDs, or can just as easily connect with anything else attached to the available GPIO pins.
 
-[Read more](callumkirkwood.com/projects/potHat)
+[Read more](http://callumkirkwood.com/projects/potHat)
 
 ##### Hardware
 - Raspberry Pi 2/3/Zero
